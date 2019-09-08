@@ -3,9 +3,9 @@
 
 # Global Property
 title-text: ""
-desktop-image: "background.jpeg"
+desktop-image: "Qotd9S5.jpg"
 desktop-color: "#000000"
-terminal-font: "Unifont Regular 16"
+terminal-font: "Droid Sans Regular 60"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -19,11 +19,13 @@ terminal-border: "0"
   top = 30%
   width = 45%
   height = 60%
-  item_font = "Unifont Regular 16"
+  item_font = "Droid Sans Regular 60"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
-  item_height = 24
-  item_spacing = 12
+  item_height = 80
+  item_spacing = 20
+  icon_height = 72
+  icon_width = 72
   selected_item_pixmap_style = "select_*.png"
 }
 
@@ -36,5 +38,5 @@ terminal-border: "0"
   id = "__timeout__"
   text = "Booting in %d seconds"
   color = "#cccccc"
-  font = "Unifont Regular 16"
+  font = "Droid Sans Regular 60"
 }
