@@ -3,9 +3,9 @@
 
 # Installation
 ### Arch Linux
-##### install packages form AUR :
+##### Place files in directory :
 ```shell
-$ yaourt -S grub2-theme-vimix-git
+Place the 'Vimix' folder in /boot/grub/themes/
 ```
 ##### Edit /etc/default/grub :
 ```shell
@@ -16,12 +16,9 @@ GRUB_THEME="/boot/grub/themes/Vimix/theme.txt"
 $ grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ### Fedora 28/29
-##### install packages:
+##### Place files in directory :
 ```shell
-$ cd Downloads/
-$ git clone https://github.com/Se7endAY/grub2-theme-vimix.git && cd grub2-theme-vimix
-$ sudo cp -r Vimix/ /boot/grub2/themes/ 
-$ sudo nano /etc/default/grub
+Place the 'Vimix' folder in /boot/grub/themes/
 ```
 #### Copy this at the bottom 
 ```shell
